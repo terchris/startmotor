@@ -1,0 +1,2 @@
+startmotorinfo.txt
+This is a test file to create the repository
