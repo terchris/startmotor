@@ -1,0 +1,1186 @@
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden
+}
+body:after{
+ display:none;
+ content: 
+    url(../img/jury/EinarKleppeHolthe-Hover.png)
+    url(../img/jury/HeidiArnesenAustlid-Hover.png)
+    url(../img/jury/JonnyAspen-Hover.png)
+    url(../img/jury/JorgenAndreNilsen-Hover.png)
+    url(../img/jury/KjartanSlette-Hover.png)
+    url(../img/jury/HaraldNissen-Hover.png)
+    url(../img/jury/SeanPercival-Hover.png)
+    url(../img/jury/StinaBirkeland-Hover.png)
+    url(../img/jury/ToreAndreGodager-Hover.png)
+    url(../img/coaches/BirgerLie-Hover.png)
+    url(../img/coaches/CiliaHolmesIndahl-Hover.png)
+    url(../img/coaches/HakonBogen-Hover.png)
+    url(../img/coaches/IvarMartinLyngve-Hover.png)
+    url(../img/coaches/MariusFredriksen-Hover.png)
+    url(../img/coaches/SigurdHoystad-Hover.png)
+    url(../img/coaches/SigvePettersen-Hover.png)
+    url(../img/coaches/YookShee-Hover.png)
+    url(../img/facilitator/JernejDekleva-Hover.png)
+    url(../img/organizers/EvinGuler-Hover.png)
+    url(../img/organizers/GardJenssen-Hover.png)
+    url(../img/organizers/IraEgorova-Hover.png)
+    url(../img/organizers/IsabellaPersson-Hover.png)
+    url(../img/organizers/KrisRiiseJensen-Hover.png)
+    url(../img/organizers/RobertAndersen-Hover.png)
+    url(../img/organizers/RyszardRzepa-Hover.png)
+    url(../img/organizers/SiljeMarieFlaaten-Hover.png)
+    url(../img/organizers/StineChristensen-Hover.png)
+    url(../img/organizers/TerjeChristensen-Hover.png)
+    url(../img/organizers/YookSheeOrganizer-Hover.png)
+}
+p {
+    font-size: 20px
+}
+p.small {
+    font-size: 16px
+}
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
+    color: #fff;
+    outline: 0
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700
+}
+hr.star-light,
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 2px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px
+}
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f006";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    font-size: 1.2em;
+    padding: 0 .25em
+}
+.navbar-custom,
+header .intro-text .name {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand.active,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav li a,
+header {
+    color: #fff
+}
+.img-centered {
+    margin: 0 auto
+}
+header {
+    text-align: center;
+    background: #7AC8B0
+}
+header .container {
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+header img {
+    display: block;
+    margin: 0 auto 20px
+}
+header .intro-text .name {
+    display: block;
+    font-weight: 700;
+    font-size: 2em
+}
+header .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300
+}
+@media (min-width: 768px) {
+    header .container {
+        padding-top: 50px;
+        padding-bottom: 20px
+    }
+    header .intro-text .name {
+        font-size: 4.75em
+    }
+    header .intro-text .skills {
+        font-size: 1.75em
+    }
+}
+.navbar-custom {
+    background: #3D9378;
+    font-weight: 700;
+    border: none
+}
+.navbar-custom a:focus {
+    outline: 0
+}
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px
+}
+.navbar-custom .navbar-nav li a:hover {
+    color: #265A4A;
+    outline: 0
+}
+.navbar-custom .navbar-nav li a:active,
+.navbar-custom .navbar-nav li a:focus {
+    color: #fff
+}
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li.active a:active,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:hover {
+    color: #fff;
+    background: transparent
+}
+.navbar-custom .navbar-toggle {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-color: #fff
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:hover {
+    background-color: #07081B;
+    color: #fff;
+    border-color: #07081B
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 50%;
+  padding: 15px;
+  width: auto;
+}
+.brand-centered {
+  display: flex;
+  justify-content: left;
+  position: absolute;
+  width: 100%;
+  left: 10%;
+  top: center;
+}
+.brand-centered .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.timer_box{
+    margin: 35px 24px;
+    display: inline-block;
+    padding: 20px 12px 0px 12px;
+    text-align: center;
+    width: 130px;
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, .6);
+}
+.timer_box h1{
+    font-size: 48px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+}
+.timer_box p{ margin-top: 0px;}
+@media (min-width: 768px) {
+    .navbar-custom {
+        padding: 10px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2.2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s
+    }
+    .navbar-custom.affix {
+        padding: 10px 0
+    }
+    .navbar-custom.affix .navbar-brand {
+        font-size: 2.2em
+    }
+}
+.centered-form{
+    margin-top: 60px;
+}
+
+.centered-form .panel{
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
+}
+section {
+    padding: 100px 0
+}
+section h2 {
+    margin: 0;
+    font-size: 3em
+}
+section.success {
+    background: #7AC8B0;
+    color: #fff
+}
+section.results {
+    background: #FFD6C0;
+    color: #4B8A76
+}
+@media (max-width: 767px) {
+    section {
+        padding: 75px 0
+    }
+    section.first {
+        padding-top: 75px
+    }
+}
+#portfolio .portfolio-item {
+    margin: 0 0 15px;
+    right: 0
+}
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto
+}
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(24, 188, 156, .9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s
+}
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+    opacity: 1
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    margin-top: -12px;
+    color: #fff
+}
+.round {
+  border-radius: 24px;
+}
+.btn-social,
+.scroll-top,
+.scroll-top .btn {
+    width: 50px;
+    height: 50px
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+    margin-top: -12px
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+    margin: 0
+}
+#portfolio * {
+    z-index: 2
+}
+@media (min-width: 767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+}
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee
+}
+.floating-label-form-group input,
+.floating-label-form-group textarea {
+	color: #434343;
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none
+}
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    -moz-transition: top .3s ease, opacity .3s ease;
+    -ms-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1
+}
+.floating-label-form-group-with-focus label {
+    color: #18BC9C
+}
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee
+}
+footer {
+    color: #fff
+}
+footer h3 {
+    margin-bottom: 30px
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2C3E50
+}
+footer .footer-col {
+    margin-bottom: 50px
+}
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #3D9378
+}
+.btn-outline {
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 15px
+}
+.btn-outline.active,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline:hover {
+    color: #07081B;
+    background: #fff;
+    border: 2px solid #fff
+}
+.btn-primary.active,
+.btn-primary:active,
+.btn-success.active,
+.btn-success:active,
+.open .dropdown-toggle.btn-primary,
+.open .dropdown-toggle.btn-success {
+    background-image: none
+}
+.btn-primary {
+    color: #fff;
+    background-color: #7AC8B0;
+    border-color: #7AC8B0;
+    font-weight: 700
+}
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #FFD6C0;
+    border-color: #FFD6C0
+}
+.btn-primary:active:hover
+{
+background-color: #FFD6C0; 
+border-color: #FFD6C0; 
+}
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+    background-color: #2C3E50;
+    border-color: #2C3E50
+}
+.btn-primary .badge {
+    color: #183240;
+    background-color: #fff
+}
+.btn-success {
+    color: #fff;
+    background-color: #4B8A76;
+    border-color: #4B8A76;
+    font-weight: 700
+}
+.btn-success.active,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open .dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #FEA677;
+    border-color: #FEA677
+}
+.btn-success:active:hover
+{
+background-color: #FEA677; 
+border-color: #FEA677; 
+}
+.btn-success.disabled,
+.btn-success.disabled.active,
+.btn-success.disabled:active,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled],
+.btn-success[disabled].active,
+.btn-success[disabled]:active,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-success.active,
+fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
+    background-color: #183240;
+    border-color: #183240
+}
+.btn-success .badge {
+    color: #183240;
+    background-color: #fff
+}
+.btn-social {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px
+}
+.btn.active,
+.btn:active,
+.btn:focus {
+    outline: 0
+}
+.scroll-top {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    z-index: 1049
+}
+.scroll-top .btn {
+    font-size: 20px;
+    border-radius: 100%;
+    line-height: 28px
+}
+.scroll-top .btn:focus {
+    outline: 0
+}
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center
+}
+.portfolio-modal .modal-content h2 {
+    margin: 0;
+    font-size: 3em
+}
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px
+}
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0
+}
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3
+}
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #2C3E50;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051
+}
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #2C3E50;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052
+}
+.portfolio-modal .modal-backdrop {
+    opacity: 0;
+    display: none
+}
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+
+*::--webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+
+/* This one works */
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+.inner {
+   left:50%;
+   top:50%;
+   -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   position:absolute;
+}
+.nologounderline {
+    padding-bottom:8px;
+}
+.logounderline {
+    padding-bottom: 5px;
+    border-bottom: #FFD6C0 3px solid;
+}
+.footerlogounderline {
+    border-bottom: #FFD6C0 3px solid;
+}
+.placeholderImage {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image:url(../img/jury/Wildcard-femme.png);
+}
+.einarKleppeHolthe {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image:url(../img/jury/EinarKleppeHolthe.png);
+    transition: all 0.3s linear;
+}
+.einarKleppeHolthe:hover {
+    background-position: 0 0;
+    background-image: url(../img/jury/EinarKleppeHolthe-Hover.png);
+}
+.heidiArnesenAustlid {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/jury/HeidiArnesenAustlid.png);
+    transition: all 0.3s linear;
+}
+.heidiArnesenAustlid:hover {
+    background-position: 0 0;
+    background-image: url(../img/jury/HeidiArnesenAustlid-Hover.png);
+}
+.jonnyAspen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/JonnyAspen.png);
+    transition: all 0.3s linear;
+}
+.jonnyAspen:hover {
+    background-position: 0 0;
+    background: url(../img/jury/JonnyAspen-Hover.png);
+}
+.jorgenAndreNilsen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/JorgenAndreNilsen.png);
+    transition: all 0.3s linear;
+}
+.jorgenAndreNilsen:hover {
+    background-position: 0 0;
+    background: url(../img/jury/JorgenAndreNilsen-Hover.png);
+}
+.kjartanSlette {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/KjartanSlette.png);
+    transition: all 0.3s linear;
+}
+.kjartanSlette:hover {
+    background-position: 0 0;
+    background: url(../img/jury/KjartanSlette-Hover.png);
+}
+.haraldNissen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/HaraldNissen.png);
+    transition: all 0.3s linear;
+}
+.haraldNissen:hover {
+    background-position: 0 0;
+    background: url(../img/jury/HaraldNissen-Hover.png);
+}
+.seanPercival {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/SeanPercival.png);
+    transition: all 0.3s linear;
+}
+.seanPercival:hover {
+    background-position: 0 0;
+    background: url(../img/jury/SeanPercival-Hover.png);
+}
+.stinaBirkeland {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/StinaBirkeland.png);
+    transition: all 0.3s linear;
+}
+.stinaBirkeland:hover {
+    background-position: 0 0;
+    background: url(../img/jury/StinaBirkeland-Hover.png);
+}
+.toreAndreGodager {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/jury/ToreAndreGodager.png);
+    transition: all 0.3s linear;
+}
+.toreAndreGodager:hover {
+    background-position: 0 0;
+    background: url(../img/jury/ToreAndreGodager-Hover.png);
+}
+.birgerLie {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/coaches/BirgerLie.png);
+    transition: all 0.3s linear;
+}
+.birgerLie:hover {
+    background-position: 0 0;
+    background: url(../img/coaches/BirgerLie-Hover.png);
+}
+.ciliaHolmesIndahl {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background: url(../img/coaches/CiliaHolmesIndahl.png);
+    transition: all 0.3s linear;
+}
+.ciliaHolmesIndahl:hover {
+    background-position: 0 0;
+    background: url(../img/coaches/CiliaHolmesIndahl-Hover.png);
+}
+.hakonBogen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url("../img/coaches/HakonBogen.png");
+    transition: all 0.3s linear;
+}
+.hakonBogen:hover {
+    background-position: 0 0;
+    background-image: url("../img/coaches/HakonBogen-Hover.png");
+}
+.ivarMartinLyngve {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/coaches/IvarMartinLyngve.png);
+    transition: all 0.3s linear;
+}
+.ivarMartinLyngve:hover {
+    background-position: 0 0;
+    background-image: url(../img/coaches/IvarMartinLyngve-Hover.png);
+}
+.mariusFredriksen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/coaches/MariusFredriksen.png);
+    transition: all 0.3s linear;
+}
+.mariusFredriksen:hover {
+    background-position: 0 0;
+    background-image: url(../img/coaches/MariusFredriksen-Hover.png);
+}
+.sigurdHoystad {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/coaches/SigurdHoystad.png);
+    transition: all 0.3s linear;
+}
+.sigurdHoystad:hover {
+    background-position: 0 0;
+    background-image: url(../img/coaches/SigurdHoystad-Hover.png);
+}
+.sigvePettersen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/coaches/SigvePettersen.png);
+    transition: all 0.3s linear;
+}
+.sigvePettersen:hover {
+    background-position: 0 0;
+    background-image: url(../img/coaches/SigvePettersen-Hover.png);
+}
+.yookShee {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/coaches/YookShee.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.yookShee:hover {
+    background-position: 0 0;
+    background-image: url(../img/coaches/YookShee-Hover.png);
+}
+.jernejDekleva {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/facilitator/JernejDekleva.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.jernejDekleva:hover {
+    background-position: 0 0;
+    background-image: url(../img/facilitator/JernejDekleva-Hover.png);
+}
+.evinGuler {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/EvinGuler.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.evinGuler:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/EvinGuler-Hover.png);
+}
+.gardJenssen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/GardJenssen.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.gardJenssen:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/GardJenssen-Hover.png);
+}
+.iraEgorova {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/IraEgorova.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.iraEgorova:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/IraEgorova-Hover.png);
+}
+.isabellaPersson {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/IsabellaPersson.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.isabellaPersson:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/IsabellaPersson-Hover.png);
+}
+.krisRiiseJensen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/KrisRiiseJensen.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.krisRiiseJensen:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/KrisRiiseJensen-Hover.png);
+}
+.robertAndersen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/RobertAndersen.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.robertAndersen:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/RobertAndersen-Hover.png);
+}
+.ryszardRzepa {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/RyszardRzepa.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.ryszardRzepa:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/RyszardRzepa-Hover.png);
+}
+.siljeMarieFlaaten {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/SiljeMarieFlaaten.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.siljeMarieFlaaten:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/SiljeMarieFlaaten-Hover.png);
+}
+.stineChristensen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/StineChristensen.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.stineChristensen:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/StineChristensen-Hover.png);
+}
+.terjeChristensen {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/TerjeChristensen.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.terjeChristensen:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/TerjeChristensen-Hover.png);
+}
+.yookSheeOrganizer {
+    display: block;
+    width: 200px;
+    height: 200px;
+    text-indent: -99999px;
+    background-image: url(../img/organizers/YookShee.png);
+    background-image-height: ;
+    transition: all 0.3s linear;
+}
+.yookSheeOrganizer:hover {
+    background-position: 0 0;
+    background-image: url(../img/organizers/YookSheeOrganizer-Hover.png);
+}
+@media only screen and (max-width: 767px) {
+    .cropFix,
+    .einarKleppeHolthe:hover,
+    .heidiArnesenAustlid:hover,
+    .jonnyAspen:hover,
+    .jorgenAndreNilsen:hover,
+    .kjartanSlette:hover,
+    .haraldNissen:hover,
+    .seanPercival:hover,
+    .stinaBirkeland:hover,
+    .toreAndreGodager:hover,
+    .birgerLie:hover,
+    .cathrineBarth:hover,
+    .hakonBogen:hover,
+    .ivarMartinLyngve:hover,
+    .mariusFredriksen:hover,
+    .sigurdHoystad:hover,
+    .sigvePettersen:hover,
+    .yookShee:hover,
+    .jernejDekleva:hover,
+    .evinGuler:hover,
+    .gardJenssen:hover,
+    .iraEgorova:hover,
+    .isabellaPersson:hover,
+    .krisRiiseJensen:hover,
+    .robertAndersen:hover,
+    .ryszardRzepa:hover,
+    .siljeMarieFlaaten:hover,
+    .stineChristensen:hover,
+    .terjeChristensen:hover,
+    .yookSheeOrganizer:hover {
+    background-size: 140px 140px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+
+.cd-pricing-container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 4em auto;
+}
+@media only screen and (min-width: 768px) {
+  .cd-pricing-container {
+    margin: 6em auto;
+  }
+  .cd-pricing-container.cd-full-width {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.cd-pricing-list > li {
+  background-color: #FFFFFF;
+  color: #333333;
+  /* Firefox bug - 3D CSS transform, jagged edges */
+  outline: 1px solid transparent;
+}
+
+@media only screen {
+  .cd-has-margins .cd-pricing-list > li {
+    width: 32.3333333333%;
+    float: left;
+    margin-right: 1.5%;
+    border-radius: 24px 24px 24px 24px;
+  }
+  .cd-has-margins .cd-pricing-list > li:last-of-type {
+    margin-right: 0;
+  }
+  .cd-has-margins .cd-pricing-list > li::before {
+    display: none;
+  }
+}
+
+@media only screen  {
+  .cd-pricing-header {
+    padding: 1.9em 0.9em 1.6em;
+    color: #265A4A;
+    background-color: transparent;
+  }
+  .cd-dark-green .cd-pricing-header {
+    color: #13392D;
+    background-color: transparent;
+  }
+  .cd-light-green .cd-pricing-header {
+    color: #4B8A76;
+    background-color: transparent;
+  }
+  .cd-pricing-header h2 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen {
+  .cd-value {
+    font-size: 7rem;
+    font-weight: 300;
+}
+  .cd-duration {
+    font-size: 2.4rem;
+  }
+}
+.cd-pricing-features li {
+  width: 100px;
+  float: left;
+  padding: 1.6em 1em;
+  font-size: 1.4rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media only screen {
+  .cd-pricing-features {
+    width: auto;
+  }
+  .cd-pricing-features li {
+    float: none;
+    width: auto;
+    padding: 1em;
+  }
+}
+
+@media only screen {
+  .cd-pricing-footer {
+    position: relative;
+    height: auto;
+    padding: 1.8em 0;
+    text-align: center;
+  }
+  .cd-has-margins .cd-pricing-footer {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen {
+  .cd-select {
+    position: static;
+    display: inline-block;
+    height: auto;
+    padding: 1.3em 3em;
+    color: #FFFFFF;
+    border-radius: 24px;
+    background-color: #265A4A;
+    font-size: 1.4rem;
+    text-indent: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+  }
+  .cd-select:hover {
+    opacity: 0.85;
+  }
+  .cd-dark-green .cd-select {
+    background-color: #13392D;
+  }
+  .cd-light-green .cd-select {
+    background-color: #4B8A76;
+  }
+  .cd-has-margins .cd-select {
+    display: block;
+    padding: 1.7em 0;
+    border-radius: 0 0 24px 24px;
+  }
+}
+
+@media only screen {
+  .cd-full {
+    position: static;
+    display: inline-block;
+    height: auto;
+    padding: 1.3em 3em;
+    color: #4B8A76;
+    border-radius: 24px;
+    background-color: #FFD6C0;
+    font-size: 1.4rem;
+    text-indent: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none !important;
+  }
+  .cd-has-margins .cd-full {
+    display: block;
+    padding: 1.7em 0;
+    border-radius: 0 0 24px 24px;
+  }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ol, ul {
+    list-style: none;
+}
